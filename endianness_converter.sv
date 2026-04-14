@@ -16,7 +16,7 @@ always_ff @(posedge clk) begin
             word[7:0],
             word[15:8],
             word[23:16],
-            word[31:24]         // reveverse
+            word[31:24]         
         };
     end
 end
