@@ -1,11 +1,11 @@
 // Put your code below
 
 module endianness_converter(
-    input  logic        clk,
-    input  logic [31:0] word,
-    input  logic        endianness_in,
-    input  logic        endianness_out,
-    output logic [31:0] converted_word
+    input clk,
+    input [31:0] word,
+    input endianness_in,
+    input endianness_out,
+    output reg [31:0] converted_word
 );
 
 always @(posedge clk) begin
